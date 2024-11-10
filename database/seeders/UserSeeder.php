@@ -18,7 +18,7 @@ class UserSeeder extends Seeder
     {
         $this->disableForeignKeyChecks();
 
-        $this->truncateTable("posts");
+        $this->truncateTable("users");
 
         User::factory(10)->create();
 
